@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strconv"
+)
 
 func main()  {
 
@@ -17,5 +20,14 @@ func main()  {
 	s := string(by[:])
 	fmt.Printf("%v",s)
 	fmt.Printf("%s", s)
+
+
+	//int
+	a := "1"
+	strconv.Atoi(a)
+
+	//string
+	c := 1
+	strconv.Itoa(c)
 
 }
